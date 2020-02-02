@@ -1,0 +1,6 @@
+rules:
+  - id: eqeq-is-bad
+    pattern: $X == $X
+    message: "Dude, $X == $X is always true!"
+    languages: [python, javascript]
+    severity: ERROR
